@@ -1,4 +1,4 @@
-FROM continuumio/miniconda3:4.9.2
+FROM continuumio/miniconda3:24.1.2-0
 
 RUN apt-get update --allow-releaseinfo-change && apt-get install -yqq curl \
  && rm -rf /var/lib/apt/lists/*
